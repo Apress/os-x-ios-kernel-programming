@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F9C671013E536B900EAE8FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F9C670E13E536B900EAE8FC /* InfoPlist.strings */; };
+		7F9C671213E536B900EAE8FC /* AppWall.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C671113E536B900EAE8FC /* AppWall.c */; };
+		7F9C671A13E53A6700EAE8FC /* AppWall.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9C671913E53A6700EAE8FC /* AppWall.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F9C670613E536B900EAE8FC /* AppWall.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppWall.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9C670A13E536B900EAE8FC /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		7F9C670D13E536B900EAE8FC /* AppWall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppWall-Info.plist"; sourceTree = "<group>"; };
+		7F9C670F13E536B900EAE8FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F9C671113E536B900EAE8FC /* AppWall.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AppWall.c; sourceTree = "<group>"; };
+		7F9C671313E536B900EAE8FC /* AppWall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppWall-Prefix.pch"; sourceTree = "<group>"; };
+		7F9C671913E53A6700EAE8FC /* AppWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppWall.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F9C670113E536B900EAE8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F9C66F913E536B900EAE8FC = {
+			isa = PBXGroup;
+			children = (
+				7F9C670B13E536B900EAE8FC /* AppWall */,
+				7F9C670813E536B900EAE8FC /* Frameworks */,
+				7F9C670713E536B900EAE8FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9C670713E536B900EAE8FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C670613E536B900EAE8FC /* AppWall.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F9C670813E536B900EAE8FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C670913E536B900EAE8FC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F9C670913E536B900EAE8FC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C670A13E536B900EAE8FC /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7F9C670B13E536B900EAE8FC /* AppWall */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C671113E536B900EAE8FC /* AppWall.c */,
+				7F9C671913E53A6700EAE8FC /* AppWall.h */,
+				7F9C670C13E536B900EAE8FC /* Supporting Files */,
+			);
+			path = AppWall;
+			sourceTree = "<group>";
+		};
+		7F9C670C13E536B900EAE8FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F9C670D13E536B900EAE8FC /* AppWall-Info.plist */,
+				7F9C670E13E536B900EAE8FC /* InfoPlist.strings */,
+				7F9C671313E536B900EAE8FC /* AppWall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F9C670213E536B900EAE8FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9C671A13E53A6700EAE8FC /* AppWall.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F9C670513E536B900EAE8FC /* AppWall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9C671613E536B900EAE8FC /* Build configuration list for PBXNativeTarget "AppWall" */;
+			buildPhases = (
+				7F9C670013E536B900EAE8FC /* Sources */,
+				7F9C670113E536B900EAE8FC /* Frameworks */,
+				7F9C670213E536B900EAE8FC /* Headers */,
+				7F9C670313E536B900EAE8FC /* Resources */,
+				7F9C670413E536B900EAE8FC /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppWall;
+			productName = AppWall;
+			productReference = 7F9C670613E536B900EAE8FC /* AppWall.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F9C66FB13E536B900EAE8FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Xymos Software";
+			};
+			buildConfigurationList = 7F9C66FE13E536B900EAE8FC /* Build configuration list for PBXProject "AppWall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F9C66F913E536B900EAE8FC;
+			productRefGroup = 7F9C670713E536B900EAE8FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F9C670513E536B900EAE8FC /* AppWall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F9C670313E536B900EAE8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9C671013E536B900EAE8FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		7F9C670413E536B900EAE8FC /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F9C670013E536B900EAE8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9C671213E536B900EAE8FC /* AppWall.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F9C670E13E536B900EAE8FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9C670F13E536B900EAE8FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F9C671413E536B900EAE8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F9C671513E536B900EAE8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F9C671713E536B900EAE8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppWall/AppWall-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "AppWall/AppWall-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.osxkernel.AppWall;
+				MODULE_START = AppWall_start;
+				MODULE_STOP = AppWall_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = AppWall;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		7F9C671813E536B900EAE8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppWall/AppWall-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "AppWall/AppWall-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.osxkernel.AppWall;
+				MODULE_START = AppWall_start;
+				MODULE_STOP = AppWall_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = AppWall;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F9C66FE13E536B900EAE8FC /* Build configuration list for PBXProject "AppWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9C671413E536B900EAE8FC /* Debug */,
+				7F9C671513E536B900EAE8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9C671613E536B900EAE8FC /* Build configuration list for PBXNativeTarget "AppWall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9C671713E536B900EAE8FC /* Debug */,
+				7F9C671813E536B900EAE8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F9C66FB13E536B900EAE8FC /* Project object */;
+}

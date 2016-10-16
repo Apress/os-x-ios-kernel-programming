@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F97DCB613EE797B00113DBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F97DCB413EE797B00113DBA /* InfoPlist.strings */; };
+		7F97DCB813EE797B00113DBA /* MyEthernetDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F97DCB713EE797B00113DBA /* MyEthernetDriver.h */; };
+		7FA5C98713FF4C0B006BB8D5 /* MyEthernetDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FA5C98613FF4C0B006BB8D5 /* MyEthernetDriver.cpp */; };
+		7FA8431A13FA275800F97271 /* MyEthernetHwAbstraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8431913FA275800F97271 /* MyEthernetHwAbstraction.cpp */; };
+		7FA8431D13FA278200F97271 /* MyEthernetHwAbstraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA8431C13FA278200F97271 /* MyEthernetHwAbstraction.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F97DCAC13EE797B00113DBA /* MyEthernetDriver.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEthernetDriver.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F97DCB013EE797B00113DBA /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		7F97DCB313EE797B00113DBA /* MyEthernetDriver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyEthernetDriver-Info.plist"; sourceTree = "<group>"; };
+		7F97DCB513EE797B00113DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F97DCB713EE797B00113DBA /* MyEthernetDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyEthernetDriver.h; sourceTree = "<group>"; };
+		7F97DCBB13EE797B00113DBA /* MyEthernetDriver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyEthernetDriver-Prefix.pch"; sourceTree = "<group>"; };
+		7FA5C98613FF4C0B006BB8D5 /* MyEthernetDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyEthernetDriver.cpp; sourceTree = "<group>"; };
+		7FA8431913FA275800F97271 /* MyEthernetHwAbstraction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyEthernetHwAbstraction.cpp; sourceTree = "<group>"; };
+		7FA8431C13FA278200F97271 /* MyEthernetHwAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEthernetHwAbstraction.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F97DCA713EE797B00113DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F97DC9F13EE797B00113DBA = {
+			isa = PBXGroup;
+			children = (
+				7F97DCB113EE797B00113DBA /* MyEthernetDriver */,
+				7F97DCAE13EE797B00113DBA /* Frameworks */,
+				7F97DCAD13EE797B00113DBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F97DCAD13EE797B00113DBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F97DCAC13EE797B00113DBA /* MyEthernetDriver.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F97DCAE13EE797B00113DBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F97DCAF13EE797B00113DBA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F97DCAF13EE797B00113DBA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F97DCB013EE797B00113DBA /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7F97DCB113EE797B00113DBA /* MyEthernetDriver */ = {
+			isa = PBXGroup;
+			children = (
+				7FA5C98613FF4C0B006BB8D5 /* MyEthernetDriver.cpp */,
+				7F97DCB713EE797B00113DBA /* MyEthernetDriver.h */,
+				7FA8431C13FA278200F97271 /* MyEthernetHwAbstraction.h */,
+				7FA8431913FA275800F97271 /* MyEthernetHwAbstraction.cpp */,
+				7F97DCB213EE797B00113DBA /* Supporting Files */,
+			);
+			path = MyEthernetDriver;
+			sourceTree = "<group>";
+		};
+		7F97DCB213EE797B00113DBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F97DCB313EE797B00113DBA /* MyEthernetDriver-Info.plist */,
+				7F97DCB413EE797B00113DBA /* InfoPlist.strings */,
+				7F97DCBB13EE797B00113DBA /* MyEthernetDriver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F97DCA813EE797B00113DBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F97DCB813EE797B00113DBA /* MyEthernetDriver.h in Headers */,
+				7FA8431D13FA278200F97271 /* MyEthernetHwAbstraction.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F97DCAB13EE797B00113DBA /* MyEthernetDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F97DCBE13EE797B00113DBA /* Build configuration list for PBXNativeTarget "MyEthernetDriver" */;
+			buildPhases = (
+				7F97DCA613EE797B00113DBA /* Sources */,
+				7F97DCA713EE797B00113DBA /* Frameworks */,
+				7F97DCA813EE797B00113DBA /* Headers */,
+				7F97DCA913EE797B00113DBA /* Resources */,
+				7F97DCAA13EE797B00113DBA /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyEthernetDriver;
+			productName = MyEthernetDriver;
+			productReference = 7F97DCAC13EE797B00113DBA /* MyEthernetDriver.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F97DCA113EE797B00113DBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Xymos Software";
+			};
+			buildConfigurationList = 7F97DCA413EE797B00113DBA /* Build configuration list for PBXProject "MyEthernetDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F97DC9F13EE797B00113DBA;
+			productRefGroup = 7F97DCAD13EE797B00113DBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F97DCAB13EE797B00113DBA /* MyEthernetDriver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F97DCA913EE797B00113DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F97DCB613EE797B00113DBA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		7F97DCAA13EE797B00113DBA /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F97DCA613EE797B00113DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA8431A13FA275800F97271 /* MyEthernetHwAbstraction.cpp in Sources */,
+				7FA5C98713FF4C0B006BB8D5 /* MyEthernetDriver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F97DCB413EE797B00113DBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F97DCB513EE797B00113DBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F97DCBC13EE797B00113DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F97DCBD13EE797B00113DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F97DCBF13EE797B00113DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyEthernetDriver/MyEthernetDriver-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "MyEthernetDriver/MyEthernetDriver-Info.plist";
+				MODULE_NAME = com.osxkernel.MyEthernetDriver;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		7F97DCC013EE797B00113DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyEthernetDriver/MyEthernetDriver-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "MyEthernetDriver/MyEthernetDriver-Info.plist";
+				MODULE_NAME = com.osxkernel.MyEthernetDriver;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F97DCA413EE797B00113DBA /* Build configuration list for PBXProject "MyEthernetDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F97DCBC13EE797B00113DBA /* Debug */,
+				7F97DCBD13EE797B00113DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F97DCBE13EE797B00113DBA /* Build configuration list for PBXNativeTarget "MyEthernetDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F97DCBF13EE797B00113DBA /* Debug */,
+				7F97DCC013EE797B00113DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F97DCA113EE797B00113DBA /* Project object */;
+}

@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B11A80E613A5A1EE00EB5123 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11A80E513A5A1EE00EB5123 /* CoreFoundation.framework */; };
+		B11A80E913A5A1EE00EB5123 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B11A80E813A5A1EE00EB5123 /* main.c */; };
+		B11A80F113A5A23D00EB5123 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11A80F013A5A23D00EB5123 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B11A80DF13A5A1EE00EB5123 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B11A80E113A5A1EE00EB5123 /* DriverIterator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DriverIterator; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11A80E513A5A1EE00EB5123 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B11A80E813A5A1EE00EB5123 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B11A80F013A5A23D00EB5123 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B11A80DE13A5A1EE00EB5123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11A80F113A5A23D00EB5123 /* IOKit.framework in Frameworks */,
+				B11A80E613A5A1EE00EB5123 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B11A80D613A5A1EE00EB5123 = {
+			isa = PBXGroup;
+			children = (
+				B11A80E713A5A1EE00EB5123 /* DriverIterator */,
+				B11A80E413A5A1EE00EB5123 /* Frameworks */,
+				B11A80E213A5A1EE00EB5123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B11A80E213A5A1EE00EB5123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B11A80E113A5A1EE00EB5123 /* DriverIterator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B11A80E413A5A1EE00EB5123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B11A80E513A5A1EE00EB5123 /* CoreFoundation.framework */,
+				B11A80F013A5A23D00EB5123 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B11A80E713A5A1EE00EB5123 /* DriverIterator */ = {
+			isa = PBXGroup;
+			children = (
+				B11A80E813A5A1EE00EB5123 /* main.c */,
+			);
+			path = DriverIterator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B11A80E013A5A1EE00EB5123 /* DriverIterator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11A80ED13A5A1EE00EB5123 /* Build configuration list for PBXNativeTarget "DriverIterator" */;
+			buildPhases = (
+				B11A80DD13A5A1EE00EB5123 /* Sources */,
+				B11A80DE13A5A1EE00EB5123 /* Frameworks */,
+				B11A80DF13A5A1EE00EB5123 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriverIterator;
+			productName = DriverIterator;
+			productReference = B11A80E113A5A1EE00EB5123 /* DriverIterator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B11A80D813A5A1EE00EB5123 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B11A80DB13A5A1EE00EB5123 /* Build configuration list for PBXProject "DriverIterator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B11A80D613A5A1EE00EB5123;
+			productRefGroup = B11A80E213A5A1EE00EB5123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B11A80E013A5A1EE00EB5123 /* DriverIterator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B11A80DD13A5A1EE00EB5123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11A80E913A5A1EE00EB5123 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B11A80EB13A5A1EE00EB5123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B11A80EC13A5A1EE00EB5123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B11A80EE13A5A1EE00EB5123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B11A80EF13A5A1EE00EB5123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B11A80DB13A5A1EE00EB5123 /* Build configuration list for PBXProject "DriverIterator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11A80EB13A5A1EE00EB5123 /* Debug */,
+				B11A80EC13A5A1EE00EB5123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11A80ED13A5A1EE00EB5123 /* Build configuration list for PBXNativeTarget "DriverIterator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11A80EE13A5A1EE00EB5123 /* Debug */,
+				B11A80EF13A5A1EE00EB5123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B11A80D813A5A1EE00EB5123 /* Project object */;
+}

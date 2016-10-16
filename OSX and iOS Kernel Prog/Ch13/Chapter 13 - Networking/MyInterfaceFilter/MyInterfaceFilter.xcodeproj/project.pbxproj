@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FB70B9813F55DBB00520920 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FB70B9613F55DBB00520920 /* InfoPlist.strings */; };
+		7FB70B9A13F55DBB00520920 /* MyInterfaceFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FB70B9913F55DBB00520920 /* MyInterfaceFilter.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FB70B8E13F55DBB00520920 /* MyInterfaceFilter.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyInterfaceFilter.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB70B9213F55DBB00520920 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		7FB70B9513F55DBB00520920 /* MyInterfaceFilter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyInterfaceFilter-Info.plist"; sourceTree = "<group>"; };
+		7FB70B9713F55DBB00520920 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FB70B9913F55DBB00520920 /* MyInterfaceFilter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MyInterfaceFilter.c; sourceTree = "<group>"; };
+		7FB70B9B13F55DBB00520920 /* MyInterfaceFilter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyInterfaceFilter-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FB70B8913F55DBB00520920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FB70B8113F55DBB00520920 = {
+			isa = PBXGroup;
+			children = (
+				7FB70B9313F55DBB00520920 /* MyInterfaceFilter */,
+				7FB70B9013F55DBB00520920 /* Frameworks */,
+				7FB70B8F13F55DBB00520920 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB70B8F13F55DBB00520920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB70B8E13F55DBB00520920 /* MyInterfaceFilter.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FB70B9013F55DBB00520920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FB70B9113F55DBB00520920 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FB70B9113F55DBB00520920 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FB70B9213F55DBB00520920 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7FB70B9313F55DBB00520920 /* MyInterfaceFilter */ = {
+			isa = PBXGroup;
+			children = (
+				7FB70B9913F55DBB00520920 /* MyInterfaceFilter.c */,
+				7FB70B9413F55DBB00520920 /* Supporting Files */,
+			);
+			path = MyInterfaceFilter;
+			sourceTree = "<group>";
+		};
+		7FB70B9413F55DBB00520920 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FB70B9513F55DBB00520920 /* MyInterfaceFilter-Info.plist */,
+				7FB70B9613F55DBB00520920 /* InfoPlist.strings */,
+				7FB70B9B13F55DBB00520920 /* MyInterfaceFilter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7FB70B8A13F55DBB00520920 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FB70B8D13F55DBB00520920 /* MyInterfaceFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB70B9E13F55DBB00520920 /* Build configuration list for PBXNativeTarget "MyInterfaceFilter" */;
+			buildPhases = (
+				7FB70B8813F55DBB00520920 /* Sources */,
+				7FB70B8913F55DBB00520920 /* Frameworks */,
+				7FB70B8A13F55DBB00520920 /* Headers */,
+				7FB70B8B13F55DBB00520920 /* Resources */,
+				7FB70B8C13F55DBB00520920 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyInterfaceFilter;
+			productName = MyInterfaceFilter;
+			productReference = 7FB70B8E13F55DBB00520920 /* MyInterfaceFilter.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FB70B8313F55DBB00520920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Xymos Software";
+			};
+			buildConfigurationList = 7FB70B8613F55DBB00520920 /* Build configuration list for PBXProject "MyInterfaceFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FB70B8113F55DBB00520920;
+			productRefGroup = 7FB70B8F13F55DBB00520920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FB70B8D13F55DBB00520920 /* MyInterfaceFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FB70B8B13F55DBB00520920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB70B9813F55DBB00520920 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		7FB70B8C13F55DBB00520920 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FB70B8813F55DBB00520920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB70B9A13F55DBB00520920 /* MyInterfaceFilter.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FB70B9613F55DBB00520920 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB70B9713F55DBB00520920 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FB70B9C13F55DBB00520920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FB70B9D13F55DBB00520920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7FB70B9F13F55DBB00520920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyInterfaceFilter/MyInterfaceFilter-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "MyInterfaceFilter/MyInterfaceFilter-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.osxkernel.MyInterfaceFilter;
+				MODULE_START = MyInterfaceFilter_start;
+				MODULE_STOP = MyInterfaceFilter_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		7FB70BA013F55DBB00520920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyInterfaceFilter/MyInterfaceFilter-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "MyInterfaceFilter/MyInterfaceFilter-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.osxkernel.MyInterfaceFilter;
+				MODULE_START = MyInterfaceFilter_start;
+				MODULE_STOP = MyInterfaceFilter_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FB70B8613F55DBB00520920 /* Build configuration list for PBXProject "MyInterfaceFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB70B9C13F55DBB00520920 /* Debug */,
+				7FB70B9D13F55DBB00520920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB70B9E13F55DBB00520920 /* Build configuration list for PBXNativeTarget "MyInterfaceFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB70B9F13F55DBB00520920 /* Debug */,
+				7FB70BA013F55DBB00520920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FB70B8313F55DBB00520920 /* Project object */;
+}

@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FCBF33D13A8DAD60013FDFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FCBF33B13A8DAD60013FDFD /* InfoPlist.strings */; };
+		7FCBF34013A8DAD60013FDFD /* MyFirstUSBDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCBF33F13A8DAD60013FDFD /* MyFirstUSBDriver.h */; };
+		7FCBF34213A8DAD60013FDFD /* MyFirstUSBDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FCBF34113A8DAD60013FDFD /* MyFirstUSBDriver.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FCBF33313A8DAD60013FDFD /* MyFirstUSBDriver.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstUSBDriver.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCBF33713A8DAD60013FDFD /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		7FCBF33A13A8DAD60013FDFD /* MyFirstUSBDriver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstUSBDriver-Info.plist"; sourceTree = "<group>"; };
+		7FCBF33C13A8DAD60013FDFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FCBF33E13A8DAD60013FDFD /* MyFirstUSBDriver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFirstUSBDriver-Prefix.pch"; sourceTree = "<group>"; };
+		7FCBF33F13A8DAD60013FDFD /* MyFirstUSBDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstUSBDriver.h; sourceTree = "<group>"; };
+		7FCBF34113A8DAD60013FDFD /* MyFirstUSBDriver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyFirstUSBDriver.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FCBF32E13A8DAD60013FDFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FCBF32613A8DAD60013FDFD = {
+			isa = PBXGroup;
+			children = (
+				7FCBF33813A8DAD60013FDFD /* MyFirstUSBDriver */,
+				7FCBF33513A8DAD60013FDFD /* Frameworks */,
+				7FCBF33413A8DAD60013FDFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FCBF33413A8DAD60013FDFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FCBF33313A8DAD60013FDFD /* MyFirstUSBDriver.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FCBF33513A8DAD60013FDFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FCBF33613A8DAD60013FDFD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FCBF33613A8DAD60013FDFD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FCBF33713A8DAD60013FDFD /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7FCBF33813A8DAD60013FDFD /* MyFirstUSBDriver */ = {
+			isa = PBXGroup;
+			children = (
+				7FCBF33F13A8DAD60013FDFD /* MyFirstUSBDriver.h */,
+				7FCBF34113A8DAD60013FDFD /* MyFirstUSBDriver.cpp */,
+				7FCBF33913A8DAD60013FDFD /* Supporting Files */,
+			);
+			path = MyFirstUSBDriver;
+			sourceTree = "<group>";
+		};
+		7FCBF33913A8DAD60013FDFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FCBF33A13A8DAD60013FDFD /* MyFirstUSBDriver-Info.plist */,
+				7FCBF33B13A8DAD60013FDFD /* InfoPlist.strings */,
+				7FCBF33E13A8DAD60013FDFD /* MyFirstUSBDriver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7FCBF32F13A8DAD60013FDFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCBF34013A8DAD60013FDFD /* MyFirstUSBDriver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FCBF33213A8DAD60013FDFD /* MyFirstUSBDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FCBF34513A8DAD60013FDFD /* Build configuration list for PBXNativeTarget "MyFirstUSBDriver" */;
+			buildPhases = (
+				7FCBF32D13A8DAD60013FDFD /* Sources */,
+				7FCBF32E13A8DAD60013FDFD /* Frameworks */,
+				7FCBF32F13A8DAD60013FDFD /* Headers */,
+				7FCBF33013A8DAD60013FDFD /* Resources */,
+				7FCBF33113A8DAD60013FDFD /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFirstUSBDriver;
+			productName = MyFirstUSBDriver;
+			productReference = 7FCBF33313A8DAD60013FDFD /* MyFirstUSBDriver.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FCBF32813A8DAD60013FDFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Xymos Software";
+			};
+			buildConfigurationList = 7FCBF32B13A8DAD60013FDFD /* Build configuration list for PBXProject "MyFirstUSBDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FCBF32613A8DAD60013FDFD;
+			productRefGroup = 7FCBF33413A8DAD60013FDFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FCBF33213A8DAD60013FDFD /* MyFirstUSBDriver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FCBF33013A8DAD60013FDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCBF33D13A8DAD60013FDFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		7FCBF33113A8DAD60013FDFD /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FCBF32D13A8DAD60013FDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCBF34213A8DAD60013FDFD /* MyFirstUSBDriver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FCBF33B13A8DAD60013FDFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FCBF33C13A8DAD60013FDFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FCBF34313A8DAD60013FDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FCBF34413A8DAD60013FDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7FCBF34613A8DAD60013FDFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFirstUSBDriver/MyFirstUSBDriver-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "MyFirstUSBDriver/MyFirstUSBDriver-Info.plist";
+				MODULE_NAME = com.osxkernel.MyFirstUSBDriver;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		7FCBF34713A8DAD60013FDFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFirstUSBDriver/MyFirstUSBDriver-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "MyFirstUSBDriver/MyFirstUSBDriver-Info.plist";
+				MODULE_NAME = com.osxkernel.MyFirstUSBDriver;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FCBF32B13A8DAD60013FDFD /* Build configuration list for PBXProject "MyFirstUSBDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCBF34313A8DAD60013FDFD /* Debug */,
+				7FCBF34413A8DAD60013FDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FCBF34513A8DAD60013FDFD /* Build configuration list for PBXNativeTarget "MyFirstUSBDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCBF34613A8DAD60013FDFD /* Debug */,
+				7FCBF34713A8DAD60013FDFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FCBF32813A8DAD60013FDFD /* Project object */;
+}

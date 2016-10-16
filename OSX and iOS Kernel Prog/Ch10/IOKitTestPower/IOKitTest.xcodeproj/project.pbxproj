@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B139101B1390DFD1008E4495 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B13910191390DFD1008E4495 /* InfoPlist.strings */; };
+		B139101E1390DFD1008E4495 /* IOKitTest.h in Headers */ = {isa = PBXBuildFile; fileRef = B139101D1390DFD1008E4495 /* IOKitTest.h */; };
+		B13910201390DFD1008E4495 /* IOKitTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B139101F1390DFD1008E4495 /* IOKitTest.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B13910111390DFD1008E4495 /* IOKitTest.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOKitTest.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13910151390DFD1008E4495 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		B13910181390DFD1008E4495 /* IOKitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOKitTest-Info.plist"; sourceTree = "<group>"; };
+		B139101A1390DFD1008E4495 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B139101C1390DFD1008E4495 /* IOKitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOKitTest-Prefix.pch"; sourceTree = "<group>"; };
+		B139101D1390DFD1008E4495 /* IOKitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOKitTest.h; sourceTree = "<group>"; };
+		B139101F1390DFD1008E4495 /* IOKitTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOKitTest.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B139100C1390DFD1008E4495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B13910041390DFD1008E4495 = {
+			isa = PBXGroup;
+			children = (
+				B13910161390DFD1008E4495 /* IOKitTest */,
+				B13910131390DFD1008E4495 /* Frameworks */,
+				B13910121390DFD1008E4495 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B13910121390DFD1008E4495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B13910111390DFD1008E4495 /* IOKitTest.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B13910131390DFD1008E4495 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B13910141390DFD1008E4495 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B13910141390DFD1008E4495 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B13910151390DFD1008E4495 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B13910161390DFD1008E4495 /* IOKitTest */ = {
+			isa = PBXGroup;
+			children = (
+				B139101D1390DFD1008E4495 /* IOKitTest.h */,
+				B139101F1390DFD1008E4495 /* IOKitTest.cpp */,
+				B13910171390DFD1008E4495 /* Supporting Files */,
+			);
+			path = IOKitTest;
+			sourceTree = "<group>";
+		};
+		B13910171390DFD1008E4495 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B13910181390DFD1008E4495 /* IOKitTest-Info.plist */,
+				B13910191390DFD1008E4495 /* InfoPlist.strings */,
+				B139101C1390DFD1008E4495 /* IOKitTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B139100D1390DFD1008E4495 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B139101E1390DFD1008E4495 /* IOKitTest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B13910101390DFD1008E4495 /* IOKitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13910231390DFD1008E4495 /* Build configuration list for PBXNativeTarget "IOKitTest" */;
+			buildPhases = (
+				B139100B1390DFD1008E4495 /* Sources */,
+				B139100C1390DFD1008E4495 /* Frameworks */,
+				B139100D1390DFD1008E4495 /* Headers */,
+				B139100E1390DFD1008E4495 /* Resources */,
+				B139100F1390DFD1008E4495 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOKitTest;
+			productName = IOKitTest;
+			productReference = B13910111390DFD1008E4495 /* IOKitTest.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B13910061390DFD1008E4495 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B13910091390DFD1008E4495 /* Build configuration list for PBXProject "IOKitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B13910041390DFD1008E4495;
+			productRefGroup = B13910121390DFD1008E4495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13910101390DFD1008E4495 /* IOKitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B139100E1390DFD1008E4495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B139101B1390DFD1008E4495 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		B139100F1390DFD1008E4495 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B139100B1390DFD1008E4495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13910201390DFD1008E4495 /* IOKitTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B13910191390DFD1008E4495 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B139101A1390DFD1008E4495 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B13910211390DFD1008E4495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B13910221390DFD1008E4495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B13910241390DFD1008E4495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOKitTest/IOKitTest-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "IOKitTest/IOKitTest-Info.plist";
+				MODULE_NAME = com.osxkernel.IOKitTest;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		B13910251390DFD1008E4495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOKitTest/IOKitTest-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "IOKitTest/IOKitTest-Info.plist";
+				MODULE_NAME = com.osxkernel.IOKitTest;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B13910091390DFD1008E4495 /* Build configuration list for PBXProject "IOKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13910211390DFD1008E4495 /* Debug */,
+				B13910221390DFD1008E4495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13910231390DFD1008E4495 /* Build configuration list for PBXNativeTarget "IOKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13910241390DFD1008E4495 /* Debug */,
+				B13910251390DFD1008E4495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B13910061390DFD1008E4495 /* Project object */;
+}

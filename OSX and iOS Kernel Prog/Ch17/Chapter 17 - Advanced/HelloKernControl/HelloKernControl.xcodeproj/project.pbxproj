@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F9F918913EAB49B00D1FC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F9F918713EAB49B00D1FC07 /* InfoPlist.strings */; };
+		7F9F918B13EAB49B00D1FC07 /* HelloKernControl.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F9F918A13EAB49B00D1FC07 /* HelloKernControl.c */; };
+		7F9F919313EC1E4F00D1FC07 /* HelloKernControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9F919213EC1E4F00D1FC07 /* HelloKernControl.h */; };
+		7F9F919C13ECBF4100D1FC07 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F9F919B13ECBF4100D1FC07 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F9F919613ECBF4000D1FC07 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F9F917F13EAB49B00D1FC07 /* HelloKernControl.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloKernControl.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9F918313EAB49B00D1FC07 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		7F9F918613EAB49B00D1FC07 /* HelloKernControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloKernControl-Info.plist"; sourceTree = "<group>"; };
+		7F9F918813EAB49B00D1FC07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F9F918A13EAB49B00D1FC07 /* HelloKernControl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HelloKernControl.c; sourceTree = "<group>"; };
+		7F9F918C13EAB49B00D1FC07 /* HelloKernControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloKernControl-Prefix.pch"; sourceTree = "<group>"; };
+		7F9F919213EC1E4F00D1FC07 /* HelloKernControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloKernControl.h; sourceTree = "<group>"; };
+		7F9F919813ECBF4000D1FC07 /* hello_tool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hello_tool; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9F919B13ECBF4100D1FC07 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F9F917A13EAB49B00D1FC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9F919513ECBF4000D1FC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F9F917213EAB49B00D1FC07 = {
+			isa = PBXGroup;
+			children = (
+				7F9F918413EAB49B00D1FC07 /* HelloKernControl */,
+				7F9F919A13ECBF4100D1FC07 /* hello_tool */,
+				7F9F918113EAB49B00D1FC07 /* Frameworks */,
+				7F9F918013EAB49B00D1FC07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9F918013EAB49B00D1FC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F9F917F13EAB49B00D1FC07 /* HelloKernControl.kext */,
+				7F9F919813ECBF4000D1FC07 /* hello_tool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F9F918113EAB49B00D1FC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F9F918213EAB49B00D1FC07 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F9F918213EAB49B00D1FC07 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F9F918313EAB49B00D1FC07 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7F9F918413EAB49B00D1FC07 /* HelloKernControl */ = {
+			isa = PBXGroup;
+			children = (
+				7F9F918A13EAB49B00D1FC07 /* HelloKernControl.c */,
+				7F9F919213EC1E4F00D1FC07 /* HelloKernControl.h */,
+				7F9F918513EAB49B00D1FC07 /* Supporting Files */,
+			);
+			path = HelloKernControl;
+			sourceTree = "<group>";
+		};
+		7F9F918513EAB49B00D1FC07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F9F918613EAB49B00D1FC07 /* HelloKernControl-Info.plist */,
+				7F9F918713EAB49B00D1FC07 /* InfoPlist.strings */,
+				7F9F918C13EAB49B00D1FC07 /* HelloKernControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F9F919A13ECBF4100D1FC07 /* hello_tool */ = {
+			isa = PBXGroup;
+			children = (
+				7F9F919B13ECBF4100D1FC07 /* main.c */,
+			);
+			path = hello_tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F9F917B13EAB49B00D1FC07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9F919313EC1E4F00D1FC07 /* HelloKernControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F9F917E13EAB49B00D1FC07 /* HelloKernControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9F918F13EAB49B00D1FC07 /* Build configuration list for PBXNativeTarget "HelloKernControl" */;
+			buildPhases = (
+				7F9F917913EAB49B00D1FC07 /* Sources */,
+				7F9F917A13EAB49B00D1FC07 /* Frameworks */,
+				7F9F917B13EAB49B00D1FC07 /* Headers */,
+				7F9F917C13EAB49B00D1FC07 /* Resources */,
+				7F9F917D13EAB49B00D1FC07 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloKernControl;
+			productName = HelloKernControl;
+			productReference = 7F9F917F13EAB49B00D1FC07 /* HelloKernControl.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+		7F9F919713ECBF4000D1FC07 /* hello_tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9F919F13ECBF4100D1FC07 /* Build configuration list for PBXNativeTarget "hello_tool" */;
+			buildPhases = (
+				7F9F919413ECBF4000D1FC07 /* Sources */,
+				7F9F919513ECBF4000D1FC07 /* Frameworks */,
+				7F9F919613ECBF4000D1FC07 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello_tool;
+			productName = hello_tool;
+			productReference = 7F9F919813ECBF4000D1FC07 /* hello_tool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F9F917413EAB49B00D1FC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Xymos Software";
+			};
+			buildConfigurationList = 7F9F917713EAB49B00D1FC07 /* Build configuration list for PBXProject "HelloKernControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F9F917213EAB49B00D1FC07;
+			productRefGroup = 7F9F918013EAB49B00D1FC07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F9F917E13EAB49B00D1FC07 /* HelloKernControl */,
+				7F9F919713ECBF4000D1FC07 /* hello_tool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F9F917C13EAB49B00D1FC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9F918913EAB49B00D1FC07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		7F9F917D13EAB49B00D1FC07 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F9F917913EAB49B00D1FC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9F918B13EAB49B00D1FC07 /* HelloKernControl.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9F919413ECBF4000D1FC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9F919C13ECBF4100D1FC07 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F9F918713EAB49B00D1FC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9F918813EAB49B00D1FC07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F9F918D13EAB49B00D1FC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F9F918E13EAB49B00D1FC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F9F919013EAB49B00D1FC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloKernControl/HelloKernControl-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "HelloKernControl/HelloKernControl-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.osxkernel.HelloKernControl;
+				MODULE_START = HelloKernControl_start;
+				MODULE_STOP = HelloKernControl_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		7F9F919113EAB49B00D1FC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloKernControl/HelloKernControl-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "HelloKernControl/HelloKernControl-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.osxkernel.HelloKernControl;
+				MODULE_START = HelloKernControl_start;
+				MODULE_STOP = HelloKernControl_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		7F9F91A013ECBF4100D1FC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F9F91A113ECBF4100D1FC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F9F917713EAB49B00D1FC07 /* Build configuration list for PBXProject "HelloKernControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9F918D13EAB49B00D1FC07 /* Debug */,
+				7F9F918E13EAB49B00D1FC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9F918F13EAB49B00D1FC07 /* Build configuration list for PBXNativeTarget "HelloKernControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9F919013EAB49B00D1FC07 /* Debug */,
+				7F9F919113EAB49B00D1FC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9F919F13ECBF4100D1FC07 /* Build configuration list for PBXNativeTarget "hello_tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9F91A013ECBF4100D1FC07 /* Debug */,
+				7F9F91A113ECBF4100D1FC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F9F917413EAB49B00D1FC07 /* Project object */;
+}

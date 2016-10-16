@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1E26F8113EE6CAA001B376A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1E26F7F13EE6CAA001B376A /* InfoPlist.strings */; };
+		B1E26F8313EE6CAA001B376A /* SampleEncryptionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E26F8213EE6CAA001B376A /* SampleEncryptionFilter.h */; };
+		B1E26F8513EE6CAA001B376A /* SampleEncryptionFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1E26F8413EE6CAA001B376A /* SampleEncryptionFilter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1E26F7713EE6CAA001B376A /* SampleEncryptionFilter.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleEncryptionFilter.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E26F7B13EE6CAA001B376A /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		B1E26F7E13EE6CAA001B376A /* SampleEncryptionFilter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleEncryptionFilter-Info.plist"; sourceTree = "<group>"; };
+		B1E26F8013EE6CAA001B376A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1E26F8213EE6CAA001B376A /* SampleEncryptionFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleEncryptionFilter.h; sourceTree = "<group>"; };
+		B1E26F8413EE6CAA001B376A /* SampleEncryptionFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SampleEncryptionFilter.cpp; sourceTree = "<group>"; };
+		B1E26F8613EE6CAA001B376A /* SampleEncryptionFilter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleEncryptionFilter-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1E26F7213EE6CAA001B376A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1E26F6A13EE6CAA001B376A = {
+			isa = PBXGroup;
+			children = (
+				B1E26F7C13EE6CAA001B376A /* SampleEncryptionFilter */,
+				B1E26F7913EE6CAA001B376A /* Frameworks */,
+				B1E26F7813EE6CAA001B376A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1E26F7813EE6CAA001B376A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1E26F7713EE6CAA001B376A /* SampleEncryptionFilter.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E26F7913EE6CAA001B376A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1E26F7A13EE6CAA001B376A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1E26F7A13EE6CAA001B376A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1E26F7B13EE6CAA001B376A /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B1E26F7C13EE6CAA001B376A /* SampleEncryptionFilter */ = {
+			isa = PBXGroup;
+			children = (
+				B1E26F8213EE6CAA001B376A /* SampleEncryptionFilter.h */,
+				B1E26F8413EE6CAA001B376A /* SampleEncryptionFilter.cpp */,
+				B1E26F7D13EE6CAA001B376A /* Supporting Files */,
+			);
+			path = SampleEncryptionFilter;
+			sourceTree = "<group>";
+		};
+		B1E26F7D13EE6CAA001B376A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1E26F7E13EE6CAA001B376A /* SampleEncryptionFilter-Info.plist */,
+				B1E26F7F13EE6CAA001B376A /* InfoPlist.strings */,
+				B1E26F8613EE6CAA001B376A /* SampleEncryptionFilter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B1E26F7313EE6CAA001B376A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E26F8313EE6CAA001B376A /* SampleEncryptionFilter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B1E26F7613EE6CAA001B376A /* SampleEncryptionFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E26F8913EE6CAA001B376A /* Build configuration list for PBXNativeTarget "SampleEncryptionFilter" */;
+			buildPhases = (
+				B1E26F7113EE6CAA001B376A /* Sources */,
+				B1E26F7213EE6CAA001B376A /* Frameworks */,
+				B1E26F7313EE6CAA001B376A /* Headers */,
+				B1E26F7413EE6CAA001B376A /* Resources */,
+				B1E26F7513EE6CAA001B376A /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleEncryptionFilter;
+			productName = SampleEncryptionFilter;
+			productReference = B1E26F7713EE6CAA001B376A /* SampleEncryptionFilter.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1E26F6C13EE6CAA001B376A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B1E26F6F13EE6CAA001B376A /* Build configuration list for PBXProject "SampleEncryptionFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1E26F6A13EE6CAA001B376A;
+			productRefGroup = B1E26F7813EE6CAA001B376A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1E26F7613EE6CAA001B376A /* SampleEncryptionFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1E26F7413EE6CAA001B376A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E26F8113EE6CAA001B376A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		B1E26F7513EE6CAA001B376A /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1E26F7113EE6CAA001B376A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E26F8513EE6CAA001B376A /* SampleEncryptionFilter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1E26F7F13EE6CAA001B376A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E26F8013EE6CAA001B376A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1E26F8713EE6CAA001B376A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B1E26F8813EE6CAA001B376A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B1E26F8A13EE6CAA001B376A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleEncryptionFilter/SampleEncryptionFilter-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "SampleEncryptionFilter/SampleEncryptionFilter-Info.plist";
+				MODULE_NAME = com.osxkernel.SampleEncryptionFilter;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		B1E26F8B13EE6CAA001B376A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleEncryptionFilter/SampleEncryptionFilter-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "SampleEncryptionFilter/SampleEncryptionFilter-Info.plist";
+				MODULE_NAME = com.osxkernel.SampleEncryptionFilter;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1E26F6F13EE6CAA001B376A /* Build configuration list for PBXProject "SampleEncryptionFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E26F8713EE6CAA001B376A /* Debug */,
+				B1E26F8813EE6CAA001B376A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E26F8913EE6CAA001B376A /* Build configuration list for PBXNativeTarget "SampleEncryptionFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E26F8A13EE6CAA001B376A /* Debug */,
+				B1E26F8B13EE6CAA001B376A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1E26F6C13EE6CAA001B376A /* Project object */;
+}

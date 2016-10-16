@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FD022F6137566D700D30F12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FD022F4137566D700D30F12 /* InfoPlist.strings */; };
+		7FD022F9137566D700D30F12 /* HelloWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FD022F8137566D700D30F12 /* HelloWorld.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FD022EC137566D700D30F12 /* HelloWorld.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorld.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD022F0137566D700D30F12 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		7FD022F3137566D700D30F12 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
+		7FD022F5137566D700D30F12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FD022F7137566D700D30F12 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		7FD022F8137566D700D30F12 /* HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HelloWorld.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FD022E7137566D700D30F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FD022DF137566D700D30F12 = {
+			isa = PBXGroup;
+			children = (
+				7FD022F1137566D700D30F12 /* HelloWorld */,
+				7FD022EE137566D700D30F12 /* Frameworks */,
+				7FD022ED137566D700D30F12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD022ED137566D700D30F12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FD022EC137566D700D30F12 /* HelloWorld.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FD022EE137566D700D30F12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FD022EF137566D700D30F12 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FD022EF137566D700D30F12 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FD022F0137566D700D30F12 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7FD022F1137566D700D30F12 /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				7FD022F8137566D700D30F12 /* HelloWorld.c */,
+				7FD022F2137566D700D30F12 /* Supporting Files */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		7FD022F2137566D700D30F12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FD022F3137566D700D30F12 /* HelloWorld-Info.plist */,
+				7FD022F4137566D700D30F12 /* InfoPlist.strings */,
+				7FD022F7137566D700D30F12 /* HelloWorld-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7FD022E8137566D700D30F12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FD022EB137566D700D30F12 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD022FC137566D700D30F12 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				7FD022E6137566D700D30F12 /* Sources */,
+				7FD022E7137566D700D30F12 /* Frameworks */,
+				7FD022E8137566D700D30F12 /* Headers */,
+				7FD022E9137566D700D30F12 /* Resources */,
+				7FD022EA137566D700D30F12 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = 7FD022EC137566D700D30F12 /* HelloWorld.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FD022E1137566D700D30F12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Xymos Software";
+			};
+			buildConfigurationList = 7FD022E4137566D700D30F12 /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FD022DF137566D700D30F12;
+			productRefGroup = 7FD022ED137566D700D30F12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FD022EB137566D700D30F12 /* HelloWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FD022E9137566D700D30F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD022F6137566D700D30F12 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		7FD022EA137566D700D30F12 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FD022E6137566D700D30F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD022F9137566D700D30F12 /* HelloWorld.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FD022F4137566D700D30F12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD022F5137566D700D30F12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FD022FA137566D700D30F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FD022FB137566D700D30F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7FD022FD137566D700D30F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.osxkernel.HelloWorld;
+				MODULE_START = HelloWorld_start;
+				MODULE_STOP = HelloWorld_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		7FD022FE137566D700D30F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = com.osxkernel.HelloWorld;
+				MODULE_START = HelloWorld_start;
+				MODULE_STOP = HelloWorld_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FD022E4137566D700D30F12 /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD022FA137566D700D30F12 /* Debug */,
+				7FD022FB137566D700D30F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD022FC137566D700D30F12 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD022FD137566D700D30F12 /* Debug */,
+				7FD022FE137566D700D30F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FD022E1137566D700D30F12 /* Project object */;
+}

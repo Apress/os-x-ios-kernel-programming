@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F96027F140B9B2B00B28730 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F96027D140B9B2B00B28730 /* InfoPlist.strings */; };
+		7F960281140B9B2B00B28730 /* MyAudioDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F960280140B9B2B00B28730 /* MyAudioDevice.h */; };
+		7F960283140B9B2B00B28730 /* MyAudioDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F960282140B9B2B00B28730 /* MyAudioDevice.cpp */; };
+		7F960292140E693500B28730 /* MyAudioEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F960291140E693500B28730 /* MyAudioEngine.cpp */; };
+		7F960295140E694300B28730 /* MyAudioEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F960294140E694300B28730 /* MyAudioEngine.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F960275140B9B2B00B28730 /* MyAudioDevice.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAudioDevice.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F960279140B9B2B00B28730 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		7F96027C140B9B2B00B28730 /* MyAudioDevice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyAudioDevice-Info.plist"; sourceTree = "<group>"; };
+		7F96027E140B9B2B00B28730 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F960280140B9B2B00B28730 /* MyAudioDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAudioDevice.h; sourceTree = "<group>"; };
+		7F960282140B9B2B00B28730 /* MyAudioDevice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyAudioDevice.cpp; sourceTree = "<group>"; };
+		7F960284140B9B2B00B28730 /* MyAudioDevice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAudioDevice-Prefix.pch"; sourceTree = "<group>"; };
+		7F960291140E693500B28730 /* MyAudioEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyAudioEngine.cpp; sourceTree = "<group>"; };
+		7F960294140E694300B28730 /* MyAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAudioEngine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F960270140B9B2B00B28730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F960268140B9B2B00B28730 = {
+			isa = PBXGroup;
+			children = (
+				7F96027A140B9B2B00B28730 /* MyAudioDevice */,
+				7F960277140B9B2B00B28730 /* Frameworks */,
+				7F960276140B9B2B00B28730 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F960276140B9B2B00B28730 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F960275140B9B2B00B28730 /* MyAudioDevice.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F960277140B9B2B00B28730 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F960278140B9B2B00B28730 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F960278140B9B2B00B28730 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F960279140B9B2B00B28730 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7F96027A140B9B2B00B28730 /* MyAudioDevice */ = {
+			isa = PBXGroup;
+			children = (
+				7F960280140B9B2B00B28730 /* MyAudioDevice.h */,
+				7F960282140B9B2B00B28730 /* MyAudioDevice.cpp */,
+				7F960291140E693500B28730 /* MyAudioEngine.cpp */,
+				7F960294140E694300B28730 /* MyAudioEngine.h */,
+				7F96027B140B9B2B00B28730 /* Supporting Files */,
+			);
+			path = MyAudioDevice;
+			sourceTree = "<group>";
+		};
+		7F96027B140B9B2B00B28730 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F96027C140B9B2B00B28730 /* MyAudioDevice-Info.plist */,
+				7F96027D140B9B2B00B28730 /* InfoPlist.strings */,
+				7F960284140B9B2B00B28730 /* MyAudioDevice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F960271140B9B2B00B28730 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F960281140B9B2B00B28730 /* MyAudioDevice.h in Headers */,
+				7F960295140E694300B28730 /* MyAudioEngine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F960274140B9B2B00B28730 /* MyAudioDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F960287140B9B2B00B28730 /* Build configuration list for PBXNativeTarget "MyAudioDevice" */;
+			buildPhases = (
+				7F96026F140B9B2B00B28730 /* Sources */,
+				7F960270140B9B2B00B28730 /* Frameworks */,
+				7F960271140B9B2B00B28730 /* Headers */,
+				7F960272140B9B2B00B28730 /* Resources */,
+				7F960273140B9B2B00B28730 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAudioDevice;
+			productName = MyAudioDevice;
+			productReference = 7F960275140B9B2B00B28730 /* MyAudioDevice.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F96026A140B9B2B00B28730 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Xymos Software";
+			};
+			buildConfigurationList = 7F96026D140B9B2B00B28730 /* Build configuration list for PBXProject "MyAudioDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F960268140B9B2B00B28730;
+			productRefGroup = 7F960276140B9B2B00B28730 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F960274140B9B2B00B28730 /* MyAudioDevice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F960272140B9B2B00B28730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F96027F140B9B2B00B28730 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		7F960273140B9B2B00B28730 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F96026F140B9B2B00B28730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F960283140B9B2B00B28730 /* MyAudioDevice.cpp in Sources */,
+				7F960292140E693500B28730 /* MyAudioEngine.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F96027D140B9B2B00B28730 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F96027E140B9B2B00B28730 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F960285140B9B2B00B28730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F960286140B9B2B00B28730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F960288140B9B2B00B28730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAudioDevice/MyAudioDevice-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "MyAudioDevice/MyAudioDevice-Info.plist";
+				MODULE_NAME = com.osxkernel.MyAudioDevice;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		7F960289140B9B2B00B28730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAudioDevice/MyAudioDevice-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "MyAudioDevice/MyAudioDevice-Info.plist";
+				MODULE_NAME = com.osxkernel.MyAudioDevice;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F96026D140B9B2B00B28730 /* Build configuration list for PBXProject "MyAudioDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F960285140B9B2B00B28730 /* Debug */,
+				7F960286140B9B2B00B28730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F960287140B9B2B00B28730 /* Build configuration list for PBXNativeTarget "MyAudioDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F960288140B9B2B00B28730 /* Debug */,
+				7F960289140B9B2B00B28730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F96026A140B9B2B00B28730 /* Project object */;
+}

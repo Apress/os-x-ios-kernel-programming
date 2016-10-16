@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F90424713D1660200015991 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F90424513D1660200015991 /* InfoPlist.strings */; };
+		7F90424913D1660200015991 /* MyDebugDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F90424813D1660200015991 /* MyDebugDriver.h */; };
+		7F90424B13D1660200015991 /* MyDebugDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F90424A13D1660200015991 /* MyDebugDriver.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F90423D13D1660200015991 /* MyDebugDriver.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDebugDriver.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F90424113D1660200015991 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		7F90424413D1660200015991 /* MyDebugDriver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyDebugDriver-Info.plist"; sourceTree = "<group>"; };
+		7F90424613D1660200015991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F90424813D1660200015991 /* MyDebugDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDebugDriver.h; sourceTree = "<group>"; };
+		7F90424A13D1660200015991 /* MyDebugDriver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyDebugDriver.cpp; sourceTree = "<group>"; };
+		7F90424C13D1660200015991 /* MyDebugDriver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyDebugDriver-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F90423813D1660200015991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F90423013D1660200015991 = {
+			isa = PBXGroup;
+			children = (
+				7F90424213D1660200015991 /* MyDebugDriver */,
+				7F90423F13D1660200015991 /* Frameworks */,
+				7F90423E13D1660200015991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F90423E13D1660200015991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F90423D13D1660200015991 /* MyDebugDriver.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F90423F13D1660200015991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F90424013D1660200015991 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F90424013D1660200015991 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F90424113D1660200015991 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7F90424213D1660200015991 /* MyDebugDriver */ = {
+			isa = PBXGroup;
+			children = (
+				7F90424813D1660200015991 /* MyDebugDriver.h */,
+				7F90424A13D1660200015991 /* MyDebugDriver.cpp */,
+				7F90424313D1660200015991 /* Supporting Files */,
+			);
+			path = MyDebugDriver;
+			sourceTree = "<group>";
+		};
+		7F90424313D1660200015991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F90424413D1660200015991 /* MyDebugDriver-Info.plist */,
+				7F90424513D1660200015991 /* InfoPlist.strings */,
+				7F90424C13D1660200015991 /* MyDebugDriver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F90423913D1660200015991 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F90424913D1660200015991 /* MyDebugDriver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F90423C13D1660200015991 /* MyDebugDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F90424F13D1660200015991 /* Build configuration list for PBXNativeTarget "MyDebugDriver" */;
+			buildPhases = (
+				7F90423713D1660200015991 /* Sources */,
+				7F90423813D1660200015991 /* Frameworks */,
+				7F90423913D1660200015991 /* Headers */,
+				7F90423A13D1660200015991 /* Resources */,
+				7F90423B13D1660200015991 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDebugDriver;
+			productName = MyDebugDriver;
+			productReference = 7F90423D13D1660200015991 /* MyDebugDriver.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F90423213D1660200015991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Xymos Software";
+			};
+			buildConfigurationList = 7F90423513D1660200015991 /* Build configuration list for PBXProject "MyDebugDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F90423013D1660200015991;
+			productRefGroup = 7F90423E13D1660200015991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F90423C13D1660200015991 /* MyDebugDriver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F90423A13D1660200015991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F90424713D1660200015991 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		7F90423B13D1660200015991 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F90423713D1660200015991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F90424B13D1660200015991 /* MyDebugDriver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F90424513D1660200015991 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F90424613D1660200015991 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F90424D13D1660200015991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F90424E13D1660200015991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F90425013D1660200015991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyDebugDriver/MyDebugDriver-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "MyDebugDriver/MyDebugDriver-Info.plist";
+				MODULE_NAME = com.osxkernel.MyDebugDriver;
+				MODULE_VERSION = 1.0.0d1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		7F90425113D1660200015991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyDebugDriver/MyDebugDriver-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "MyDebugDriver/MyDebugDriver-Info.plist";
+				MODULE_NAME = com.osxkernel.MyDebugDriver;
+				MODULE_VERSION = 1.0.0d1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F90423513D1660200015991 /* Build configuration list for PBXProject "MyDebugDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F90424D13D1660200015991 /* Debug */,
+				7F90424E13D1660200015991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F90424F13D1660200015991 /* Build configuration list for PBXNativeTarget "MyDebugDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F90425013D1660200015991 /* Debug */,
+				7F90425113D1660200015991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F90423213D1660200015991 /* Project object */;
+}

@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1E038AC13E6D1F900FB6FE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1E038AA13E6D1F900FB6FE0 /* InfoPlist.strings */; };
+		B1E038AE13E6D1F900FB6FE0 /* SamplePartitionScheme.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E038AD13E6D1F900FB6FE0 /* SamplePartitionScheme.h */; };
+		B1E038B013E6D1F900FB6FE0 /* SamplePartitionScheme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1E038AF13E6D1F900FB6FE0 /* SamplePartitionScheme.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1E038A213E6D1F900FB6FE0 /* SamplePartitionScheme.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePartitionScheme.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E038A613E6D1F900FB6FE0 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		B1E038A913E6D1F900FB6FE0 /* SamplePartitionScheme-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SamplePartitionScheme-Info.plist"; sourceTree = "<group>"; };
+		B1E038AB13E6D1F900FB6FE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1E038AD13E6D1F900FB6FE0 /* SamplePartitionScheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamplePartitionScheme.h; sourceTree = "<group>"; };
+		B1E038AF13E6D1F900FB6FE0 /* SamplePartitionScheme.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SamplePartitionScheme.cpp; sourceTree = "<group>"; };
+		B1E038B113E6D1F900FB6FE0 /* SamplePartitionScheme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SamplePartitionScheme-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1E0389D13E6D1F900FB6FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1E0389513E6D1F800FB6FE0 = {
+			isa = PBXGroup;
+			children = (
+				B1E038A713E6D1F900FB6FE0 /* SamplePartitionScheme */,
+				B1E038A413E6D1F900FB6FE0 /* Frameworks */,
+				B1E038A313E6D1F900FB6FE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1E038A313E6D1F900FB6FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1E038A213E6D1F900FB6FE0 /* SamplePartitionScheme.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E038A413E6D1F900FB6FE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1E038A513E6D1F900FB6FE0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1E038A513E6D1F900FB6FE0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1E038A613E6D1F900FB6FE0 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B1E038A713E6D1F900FB6FE0 /* SamplePartitionScheme */ = {
+			isa = PBXGroup;
+			children = (
+				B1E038AD13E6D1F900FB6FE0 /* SamplePartitionScheme.h */,
+				B1E038AF13E6D1F900FB6FE0 /* SamplePartitionScheme.cpp */,
+				B1E038A813E6D1F900FB6FE0 /* Supporting Files */,
+			);
+			path = SamplePartitionScheme;
+			sourceTree = "<group>";
+		};
+		B1E038A813E6D1F900FB6FE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1E038A913E6D1F900FB6FE0 /* SamplePartitionScheme-Info.plist */,
+				B1E038AA13E6D1F900FB6FE0 /* InfoPlist.strings */,
+				B1E038B113E6D1F900FB6FE0 /* SamplePartitionScheme-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B1E0389E13E6D1F900FB6FE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E038AE13E6D1F900FB6FE0 /* SamplePartitionScheme.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B1E038A113E6D1F900FB6FE0 /* SamplePartitionScheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E038B413E6D1F900FB6FE0 /* Build configuration list for PBXNativeTarget "SamplePartitionScheme" */;
+			buildPhases = (
+				B1E0389C13E6D1F900FB6FE0 /* Sources */,
+				B1E0389D13E6D1F900FB6FE0 /* Frameworks */,
+				B1E0389E13E6D1F900FB6FE0 /* Headers */,
+				B1E0389F13E6D1F900FB6FE0 /* Resources */,
+				B1E038A013E6D1F900FB6FE0 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamplePartitionScheme;
+			productName = SamplePartitionScheme;
+			productReference = B1E038A213E6D1F900FB6FE0 /* SamplePartitionScheme.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1E0389713E6D1F800FB6FE0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B1E0389A13E6D1F800FB6FE0 /* Build configuration list for PBXProject "SamplePartitionScheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1E0389513E6D1F800FB6FE0;
+			productRefGroup = B1E038A313E6D1F900FB6FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1E038A113E6D1F900FB6FE0 /* SamplePartitionScheme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1E0389F13E6D1F900FB6FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E038AC13E6D1F900FB6FE0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		B1E038A013E6D1F900FB6FE0 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1E0389C13E6D1F900FB6FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E038B013E6D1F900FB6FE0 /* SamplePartitionScheme.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1E038AA13E6D1F900FB6FE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E038AB13E6D1F900FB6FE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1E038B213E6D1F900FB6FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B1E038B313E6D1F900FB6FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B1E038B513E6D1F900FB6FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SamplePartitionScheme/SamplePartitionScheme-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "SamplePartitionScheme/SamplePartitionScheme-Info.plist";
+				MODULE_NAME = com.osxkernel.SamplePartitionScheme;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		B1E038B613E6D1F900FB6FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SamplePartitionScheme/SamplePartitionScheme-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "SamplePartitionScheme/SamplePartitionScheme-Info.plist";
+				MODULE_NAME = com.osxkernel.SamplePartitionScheme;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1E0389A13E6D1F800FB6FE0 /* Build configuration list for PBXProject "SamplePartitionScheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E038B213E6D1F900FB6FE0 /* Debug */,
+				B1E038B313E6D1F900FB6FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E038B413E6D1F900FB6FE0 /* Build configuration list for PBXNativeTarget "SamplePartitionScheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E038B513E6D1F900FB6FE0 /* Debug */,
+				B1E038B613E6D1F900FB6FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1E0389713E6D1F800FB6FE0 /* Project object */;
+}
